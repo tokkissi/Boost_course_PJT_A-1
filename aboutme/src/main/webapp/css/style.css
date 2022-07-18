@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(166, 198, 185);
+  font-weight: bold;
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  background-color: white;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7a5d3e;
+}
+
+section > a {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.5rem;
+  color: rgb(166, 198, 185);
+}
+
+.box__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0.2rem 0.2rem 0.2rem grey;
+  background-color: #8fbbc6;
+}
+
+.nav-box {
+  width: 8rem;
+  height: 2.5rem;
+  margin: 1rem 0.4rem;
+}
+
+.index-main {
+  text-align: center;
+  overflow: hidden;
+}
+
+.index-main > h2 {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0;
+}
+
+.main-box {
+  display: inline-flex;
+  height: 8rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  margin: 2rem 0.5rem;
+}
+
+.map {
+  width: 80%;
+  padding-bottom: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.aboutme-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutme-article {
+  padding: 0 6rem;
+  margin: 2rem 0;
+  justify-items: center;
+}
+
+.aboutme-article > h2 {
+  margin: 0;
+}
+
+.aboutme-article > p {
+  margin: 0;
+}
+
+.photo-main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+hr {
+  width: 95%;
+}
+
+.photo-section {
+  position: relative;
+  padding: 2rem;
+}
+
+.photo-section > img {
+  float: left;
+  width: 25%;
+  height: 25%;
+  border: 0.5rem solid gray;
+}
+
+.photo-section > div {
+  float: left;
+  width: 55%;
+  line-height: 2rem;
+  margin: 0 2rem;
+}

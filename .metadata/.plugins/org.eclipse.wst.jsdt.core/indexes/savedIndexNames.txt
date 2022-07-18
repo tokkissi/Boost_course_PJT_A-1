@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\eclipse_project\boost_course_01\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2680236388.index
+4138082403.index
+3028575962.index
+2935073472.index
+2637567076.index
+988232617.index
