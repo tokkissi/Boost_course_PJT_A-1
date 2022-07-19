@@ -41,9 +41,6 @@ public class TodayServlet extends HttpServlet {
 		out.println("<a href=\"http://localhost:8080/aboutme/index.html\">메인화면</a>");
 		out.println("<p>" + nowString + "</p>");
 		out.println("</body></html>");
-		
-//		out.println("<a href=\"http://localhost:8080/aboutme/index.html\" style=\"font-size:2rem\">메인화면</a>");
-//		out.println("<h1>" + nowString + "</h1>");
 	}
 		
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
